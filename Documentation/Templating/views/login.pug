@@ -1,0 +1,11 @@
+doctype html
+html
+    head
+        title Sample template
+    body
+        // If a User is logged in, the page should display "Hi, User" and if not, then the 
+        // "Login/Sign Up" link. 
+        if(user)
+            h1 Hi, #{user.name}
+        else
+            a(href = '/sign_up') Sign Up
