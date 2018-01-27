@@ -4,7 +4,9 @@
   "description": "ExpressJS Reference Document",
   "main": "index.js",
   "dependencies": {
+    "body-parser": "^1.18.2",
     "express": "^4.16.2",
+    "multer": "^1.3.0",
     "nodemon": "^1.14.11",
     "pug": "^2.0.0-rc.4"
   },
